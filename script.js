@@ -65,9 +65,9 @@ function getDocumentTitle(documentName) {
         'CONFERENCIARECEBIMENTOCOLETOR': 'Conferência Recebimento Coletor',
         'ARMAZENAGEMDEPALETESHORIZONTAL': 'Armazenagem de Paletes Horizontal',
         'ARMAZENAGEMDEPALETESVERTICAL': 'Armazenagem de Paletes Vertical',
-        'TREINAMENTOSEPARAÇÃO': 'Treinamento Separação',
-        'RECONFERENCIAEXPEDIÇÃO': 'Reconferência Expedição',
-        'BUSCAPENDÊNCIA': 'Busca Pendência',
+        'TREINAMENTOSEPARACAO': 'Treinamento Separação',
+        'RECONFERENCIAEXPEDICAO': 'Reconferência Expedição',
+        'BUSCAPENDENCIA': 'Busca Pendência',
         'CARREGAMENTO': 'Carregamento',
         'INVENTARIOGERALCOLETOR': 'Inventário Geral Coletor'
     };
