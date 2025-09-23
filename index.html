@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Armazém - Documentação</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Sistema de Armazém</h1>
+            <p>Documentação de Processos</p>
+        </div>
+    </header>
+
+    <nav class="sidebar">
+        <ul class="menu">
+            <li>
+                <a href="#" onclick="loadDocument('CONFERENCIARECEBIMENTOCOLETOR')" class="menu-item">
+                    <span class="menu-icon">📋</span>
+                    <span class="menu-text">Conferência Recebimento Coletor</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" onclick="loadDocument('ARMAZENAGEMDEPALETESHORIZONTAL')" class="menu-item">
+                    <span class="menu-icon">📦</span>
+                    <span class="menu-text">Armazenagem de Paletes Horizontal</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" onclick="loadDocument('ARMAZENAGEMDEPALETESVERTICAL')" class="menu-item">
+                    <span class="menu-icon">📚</span>
+                    <span class="menu-text">Armazenagem de Paletes Vertical</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" onclick="loadDocument('TREINAMENTOSEPARAÇÃO')" class="menu-item">
+                    <span class="menu-icon">🎓</span>
+                    <span class="menu-text">Treinamento Separação</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" onclick="loadDocument('RECONFERENCIAEXPEDIÇÃO')" class="menu-item">
+                    <span class="menu-icon">✅</span>
+                    <span class="menu-text">Reconferência Expedição</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" onclick="loadDocument('BUSCAPENDÊNCIA')" class="menu-item">
+                    <span class="menu-icon">🔍</span>
+                    <span class="menu-text">Busca Pendência</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" onclick="loadDocument('CARREGAMENTO')" class="menu-item">
+                    <span class="menu-icon">🚛</span>
+                    <span class="menu-text">Carregamento</span>
+                </a>
+            </li>
+            <li>
+                <a href="#" onclick="loadDocument('INVENTARIOGERALCOLETOR')" class="menu-item">
+                    <span class="menu-icon">📊</span>
+                    <span class="menu-text">Inventário Geral Coletor</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <main class="content">
+        <div class="container">
+            <div id="document-viewer">
+                <div class="welcome-message">
+                    <h2>Bem-vindo ao Sistema de Documentação</h2>
+                    <p>Selecione um item do menu à esquerda para visualizar a documentação correspondente.</p>
+                    <div class="features">
+                        <div class="feature-card">
+                            <span class="feature-icon">📋</span>
+                            <h3>Processos Organizados</h3>
+                            <p>Documentação completa de todos os processos do armazém</p>
+                        </div>
+                        <div class="feature-card">
+                            <span class="feature-icon">🔍</span>
+                            <h3>Fácil Navegação</h3>
+                            <p>Interface intuitiva para acesso rápido aos documentos</p>
+                        </div>
+                        <div class="feature-card">
+                            <span class="feature-icon">📱</span>
+                            <h3>Responsivo</h3>
+                            <p>Acesse de qualquer dispositivo, desktop ou mobile</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="loading" id="loading">
+        <div class="spinner"></div>
+        <p>Carregando documento...</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
