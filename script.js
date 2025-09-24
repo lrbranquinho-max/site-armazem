@@ -69,7 +69,8 @@ function getDocumentTitle(documentName) {
         'RECONFERENCIAEXPEDICAO': 'Reconferência Expedição',
         'BUSCAPENDENCIA': 'Busca Pendência',
         'CARREGAMENTO': 'Carregamento',
-        'INVENTARIOGERALCOLETOR': 'Inventário Geral Coletor'
+        'INVENTARIOGERALCOLETOR': 'Inventário Geral Coletor',
+        'AbastecimentodePickings': 'Abastecimento de Pickings'
     };
     
     return titles[documentName] || documentName;
